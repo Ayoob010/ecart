@@ -12,12 +12,12 @@ export class APIServiceService {
 
    getProduct()
     {
-      return this.http.get("https://fakestoreapi.com/products");  //get method for httpclient
+      return this.http.get("https://fakestoreapi.com/products/category/electronics");  //get method for httpclient
     }
 
 
     getProductById(id:string)
     {
-      return this.http.get(`https://fakestoreapi.com/products/${id}`);  //get method for httpclient
+      return this.http.get(`https://fakestoreapi.com/products/category/electronics/${id}`);  //get method for httpclient
     }
 }

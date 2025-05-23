@@ -4,18 +4,16 @@ import { ProductviewComponent } from '../../pages/productview/productview.compon
 
 @Component({
   selector: 'app-cards',
-  imports: [RouterLink],
+  imports: [RouterLink, ProductviewComponent],
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.scss'
 })
 export class CardsComponent {
 @Input() data={
-  id: 1,
-  image:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+  id: 9,
+  image:"https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
   productitle:"Card Title",
-  price:"$45.6",
-  category:"Mens",
+  price:"$64",
   description:"Card Description",
-  rate:"3.5"
 }
 }

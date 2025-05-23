@@ -2,16 +2,40 @@ h1 {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    color: #333; /* Dark gray, change as needed */
+    color: #fff; /* Dark gray, change as needed */
     margin-bottom: 20px; /* Space between heading & carousel */
 }
 
+.classic-green-glow {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #2e7d32; /* classic dark green */
+    text-shadow:
+        0 0 5px #2e7d32,
+        0 0 10px #388e3c,
+        0 0 15px #43a047,
+        0 0 20px #66bb6a;
+}
+
+
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
 
 
 .carousel {
     max-width: 100%; /* Makes it responsive */
     height: auto;
     margin: auto;
+    background-color: black;
 }
 
 .carousel-inner img {
@@ -27,17 +51,8 @@ h1 {
     }
 }
 
-
-.categories {
-    text-align: center;
-    margin: 50px 0;
-}
-.category-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.category img {
-    width: 100px;
-    border-radius: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
